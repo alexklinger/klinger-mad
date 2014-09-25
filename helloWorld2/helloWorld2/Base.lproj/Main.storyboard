@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6206.8" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7026.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="helloWorld2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k30-0P-e6W">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="216" id="PE0-O2-NNY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="PE0-O2-NNY"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="90" y="91" width="216" height="39"/>
+                                    <mask key="constraints">
+                                        <include reference="PE0-O2-NNY"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxB-ju-ybF">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Hello">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Yfm-rR-AZQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KAL-SW-931">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Goodbye">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="nqb-qG-phY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="k30-0P-e6W" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="91" id="MJw-hh-PaG"/>
+                            <constraint firstAttribute="trailing" secondItem="KAL-SW-931" secondAttribute="trailing" constant="94" id="RlX-GQ-Iid"/>
+                            <constraint firstItem="KAL-SW-931" firstAttribute="trailing" secondItem="k30-0P-e6W" secondAttribute="trailing" id="cMc-we-9TN"/>
+                            <constraint firstItem="k30-0P-e6W" firstAttribute="leading" secondItem="fxB-ju-ybF" secondAttribute="leading" id="gHs-1G-V2T"/>
+                            <constraint firstAttribute="centerX" secondItem="k30-0P-e6W" secondAttribute="centerX" id="iJQ-g4-yAs"/>
+                            <constraint firstItem="KAL-SW-931" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="162" id="iqp-vd-gR7"/>
+                            <constraint firstItem="fxB-ju-ybF" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="162" id="k3n-Nd-6De"/>
+                            <constraint firstItem="fxB-ju-ybF" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="90" id="ze9-so-8WW"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="k30-0P-e6W"/>
+                                <exclude reference="fxB-ju-ybF"/>
+                                <exclude reference="KAL-SW-931"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="MJw-hh-PaG"/>
+                                <exclude reference="gHs-1G-V2T"/>
+                                <exclude reference="iJQ-g4-yAs"/>
+                                <exclude reference="k3n-Nd-6De"/>
+                                <exclude reference="ze9-so-8WW"/>
+                                <exclude reference="RlX-GQ-Iid"/>
+                                <exclude reference="cMc-we-9TN"/>
+                                <exclude reference="iqp-vd-gR7"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="k30-0P-e6W"/>
+                                <include reference="fxB-ju-ybF"/>
+                                <include reference="KAL-SW-931"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="MJw-hh-PaG"/>
+                                <include reference="gHs-1G-V2T"/>
+                                <include reference="iJQ-g4-yAs"/>
+                                <include reference="k3n-Nd-6De"/>
+                                <include reference="ze9-so-8WW"/>
+                                <include reference="RlX-GQ-Iid"/>
+                                <include reference="cMc-we-9TN"/>
+                                <include reference="iqp-vd-gR7"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="messageText" destination="k30-0P-e6W" id="F1f-2b-vmK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.5" y="381"/>
+        </scene>
+    </scenes>
+</document>
