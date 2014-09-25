@@ -1,0 +1,18 @@
+Alex Klinger
+Mobile Application Development
+September 24, 2014
+
+
+Project 1 plan
+
+	This project will tell the user who their local congressman is. They will enter in their zip code, and the name of their congressman will be displayed. For this project I will need to create a .csv file with every congressman and corresponding zip code, or find one online. Their will be an input field for zip code, and a label for displaying the information. I’m not sure how hard this will be, but I would like to add additional functionality if possible, like how to contact them with a provided phone number and/or email. This will be a feature I will add if I have time at the end. 
+
+pseudo code: 
+
+-   get zip code
+check zip code against all in csv file (iteration)
+display congressman name
+
+Design:
+
+The design will be simple because the app will only have 1 label and 1 text input but I will probably use some sort of simple logo and color to make it more visually interesting. 
