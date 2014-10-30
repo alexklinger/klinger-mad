@@ -1,0 +1,21 @@
+﻿Alex Klinger
+project 2 plan
+Mobile Application Development 
+
+
+        For my second project, I’ll add functionality the app I made for my first project. The first project was a simple app that displayed the user’s congressmen if they live in Colorado. For my second app, I’ll add a second view that allows the user to contact their congressmen via ios’ built in functionality for phone and email. Originally, I wanted the app be usable by the entire country, not just Coloradans, but I had to abandon that after I found out I would have to manually enter in all of the zip code data. If possible I would like incorporate all of the United States in the second app. This would require finding free formated data that could programmatically be converted into a plist. For the second view I would like to display the congressman's contact information. This will also be contingent on finding a way to programmatically find a way to load all of this data as well. 
+
+
+psuedo code:
+
+
+* check user zip against plist of zip codes
+* if it matches, display zip
+* if the zip contains incorrect characters, display error message asking the user to follow the zip code format
+* if the zipcode is entered in correctly, tell them they may not live in Colorado or their zip code is not implemented yet. 
+
+
+design:
+
+
+There will be some design fixes for the newest iteration of the app. For one, the text will be much more readable. I will choose different colors for better contrast. There will be a prompt to contact the congressmen that will take the user to the second screen. On the second view their will be an icon and text that says call to call the congressmen. There will be an icon to email and text that says says email next to it that the user can tap to email their congressmen. Also, if time permits I will like to the user’s congressmen’s website.
