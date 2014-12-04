@@ -1,0 +1,16 @@
+Alex Klinger
+Mobile Application Development
+December 4th, 2014
+Project 3 Plan
+
+For this project I want to use to the audio toolbox frame work to create a sample board that plays signature sounds from rappers when you press a button of their face. 
+
+Design:
+There will be buttons for six different rappers in two rows of three. I will use illustrator to make cartoon versions of each rapper. 
+
+Pseudo Code:
+- Create object for rapper.
+- Use image of rapper as button.
+- When button pressed, play corresponding sample.
+
+Testing will make use of the iPhone 5 and iPad. 
